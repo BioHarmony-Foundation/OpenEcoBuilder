@@ -1,5 +1,5 @@
 # OpenVillage
-Building and Simulating EcoVillages entirely out of OpenSource
+Building and Simulating EcoVillages with OpenSource Technology
 
 
 ## Goals
@@ -11,17 +11,26 @@ From the technology used to create the simulator to the objects that are used wi
 * git
 * Blender
 * Godot
+* Docker (hosting and local work
+* Python (any glue or automation)
+* Django
 
 #### Simulation Objects
-Start with partnering with existing OpenSource projects that aim to build villages. From there, add on and fill in the gaps with more plans. Every placeable object will have it's visual model, as well as links to the plans to build the thing in real life yourself. Once you've simulated your village, it should a smooth transition to start building it.
-
+We would love to partner with existing OpenSource projects that aim to build EcoVillages.
 * Open Source Ecology
 * One Community Global
 * Open to new contributions
+
+From there, add on and fill in the gaps with more plans. Every placeable object will have it's visual model, as well as links to the plans to build the thing in real life yourself. Once you've simulated your village, it should be a smooth transition to start building it.
 
 
 ### Always Free
 Anyone should be able to run this and start building their own OpenVillage. No pay wall, ever.
 
-### ?Sponsorhips?
-This one kind of goes against "OpenSource Everything," and I'm still trying to decide how I feel about it. But there are companies out there doing their best to create eco-friendly products that could help speed up village building (if you have the money). Adding their models with links to their websites may be a way to increase adoption and get sponsorship to fuel the growth of the project. I am considering companies like GeoShip, EkoDome, HomeBioGas, etc.
+### Sponsors
+
+Do you have a product that people may want to buy, to help them build their EcoVillage?
+Do you teach classes or host workshops that help people build their EcoVillages?
+Do you simply believe in a future full of regenerative EcoVillages?
+
+If so, we are open and welcome to sponsors. Get your logo and link in this repo, and get featured as we build and test this thing.
