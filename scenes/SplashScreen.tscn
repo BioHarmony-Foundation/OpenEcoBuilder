@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=3 uid="uid://6k6vkpafg4en"]
+
+[ext_resource type="Texture2D" uid="uid://bi71a1hp6c8x5" path="res://logos/BH_Foundation_Logo.png" id="1_ekjqs"]
+[ext_resource type="Script" path="res://scripts/SplashScreen.gd" id="1_td4t4"]
+
+[sub_resource type="Animation" id="Animation_dsa7o"]
+resource_name = "LogoFade"
+length = 4.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/BhFoundationLogo:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2, 4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_dgtgy"]
+_data = {
+"LogoFade": SubResource("Animation_dsa7o")
+}
+
+[node name="SplashScreen" type="Node2D"]
+script = ExtResource("1_td4t4")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "LogoFade"
+libraries = {
+"": SubResource("AnimationLibrary_dgtgy")
+}
+
+[node name="BhFoundationLogo" type="Sprite2D" parent="AnimationPlayer"]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(1254, 732)
+texture = ExtResource("1_ekjqs")
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
