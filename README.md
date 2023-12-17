@@ -15,6 +15,7 @@ Anyone who wants to build their own OffGrid Ecological Lifestyle, or contribute 
 * EcoVillages
 * Intentional Communities
 * Educators and Workshop Leaders
+* Regenerative Real-Estate Agents
 * EcoProduct Creators
 
 ## Goals
@@ -42,6 +43,9 @@ We would love to partner with and link to existing OpenSource projects with simi
 
 ## BioRegional Workshops and Educators
 Once the platform is up, add yourself to the BioRegional directory for people to find you and learn from you.
+
+## Regenerative Real-Estate Agents
+If you're trying to move deals that get land in the hands of regenerative projects, we can list you as a partner. If someone comes into the software without any land yet, we can send them your way.
 
 ## EcoProduct Sponsors
 Do you have a product that people may want to buy, to help them on their journey to Ecological abundance?
