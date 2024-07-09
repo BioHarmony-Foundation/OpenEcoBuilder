@@ -3,7 +3,7 @@ Building and Simulating Open Ecological Ideas with OpenSource Technology
 
 POC and Kickstarter to come soon. Until then, imagine with me, a piece of software:
 
-Freely available to download on most modern devices. When it boots up, you can either choose to explore a sample library of Homesteads, OffGrid Retreats, and EcoVillages that can show you possible EcoLogical Lifestyles — or input your own Latitude and Longitude coordinates to import a chunk of earth, and get to building one yourself. Imagine a searchable drag-and-drop library of DIY Tutorials, BioRegional Educators and Workshops, and EcoProducts.
+Accessible via your favorite modern web browser. Find your BioRegion, then choose to explore a sample library of Homesteads, OffGrid Retreats, and EcoVillages that can show you possible EcoLogical Lifestyles for your BioRegion — or input your own Latitude and Longitude coordinates to import a chunk of earth, and get to building one yourself. Imagine a searchable drag-and-drop library of DIY Tutorials, BioRegional Educators and Workshops, and EcoProducts.
 
 Instead of Roller Coasters and the Boxed-In-Life, let’s build the world WE want to see.
 
@@ -32,7 +32,7 @@ From the technology used to create the simulator to the information referenced w
 OpenSource tools to work with and build on top of.
 * [git](https://git-scm.com/)
 * [Blender](https://www.blender.org/)
-* [Godot](https://godotengine.org/)
+* [Babylon JS](https://www.babylonjs.com/)
 
 ## OpenSource Partnerships
 We would love to partner with and link to existing OpenSource projects with similar values.
